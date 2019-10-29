@@ -71,3 +71,10 @@
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Eclipse Core      
+.project
+.settings/
+
+# JDT-specific (Eclipse Java Development Tools)     
+.classpath
