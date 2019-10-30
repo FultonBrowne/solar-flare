@@ -20,6 +20,10 @@ class StocksView extends StatelessWidget {
         name: "Ethereum",
         graph: 'assets/graphs/ethereum_price_graph.png',
         growth: 8.4),
+        Stocks(
+        name: "test",
+        graph: 'assets/graphs/ethereum_price_graph.png',
+        growth: 8.4),
   ];
 
   @override
