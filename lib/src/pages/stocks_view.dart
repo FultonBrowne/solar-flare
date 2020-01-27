@@ -51,51 +51,6 @@ class StocksView extends StatelessWidget {
                       ),
                     ))
                 .toList())
-        // Card(
-        //   child: Container(
-        //     padding: EdgeInsets.all(16),
-        //     child: Row(
-        //       children: <Widget>[
-        //         Text("Bitcoin",
-        //             style: TextStyle(color: Colors.black87, fontSize: 18)),
-        //         Image.asset(
-        //           'assets/graphs/bitcoin_price_graph.png',
-        //           height: 20,
-        //         ),
-        //       ],
-        //     ),
-        //   ),
-        // ),
-        // Card(
-        //   child: Container(
-        //     padding: EdgeInsets.all(16),
-        //     child: Row(
-        //       children: <Widget>[
-        //         Text("Libra",
-        //             style: TextStyle(color: Colors.black87, fontSize: 18)),
-        //         Image.asset(
-        //           'assets/graphs/libra_price_graph.png',
-        //           height: 20,
-        //         ),
-        //       ],
-        //     ),
-        //   ),
-        // ),
-        // Card(
-        //   child: Container(
-        //     padding: EdgeInsets.all(16),
-        //     child: Row(
-        //       children: <Widget>[
-        //         Text("Ethereum",
-        //             style: TextStyle(color: Colors.black87, fontSize: 18)),
-        //         Image.asset(
-        //           'assets/graphs/ethereum_price_graph.png',
-        //           height: 20,
-        //         ),
-        //       ],
-        //     ),
-        //   ),
-        // ),
         );
   }
 }
