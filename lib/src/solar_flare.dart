@@ -9,7 +9,6 @@ class SolarFlare extends StatelessWidget {
       title: 'Solar Flare',
       theme: ThemeData(
         primarySwatch: Colors.red,
-        
       ),
       home: HomePage(title: 'Solar Flare'),
       

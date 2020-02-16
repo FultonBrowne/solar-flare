@@ -32,10 +32,10 @@ class StocksView extends StatelessWidget {
         child: ListView(
             children: stocks
                 .map((s) => Card(
-                      child: Container(
+                      child: ListView(
                         padding: EdgeInsets.all(16),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        scrollDirection: Axis.vertical,
+                        shrinkWrap: true,
                           children: <Widget>[
                             Text(
                               s.name,
@@ -47,7 +47,7 @@ class StocksView extends StatelessWidget {
                               style: s.growth > 0 ? goodGrowth : badGrowth,
                             )
                           ],
-                        ),
+
                       ),
                     ))
                 .toList())
