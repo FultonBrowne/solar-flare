@@ -34,6 +34,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  dependencies:
+    graphql_flutter: ^2.0.0
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
